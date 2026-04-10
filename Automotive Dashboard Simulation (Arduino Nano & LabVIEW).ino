@@ -7,7 +7,7 @@
 
 // --- Biến đo xung RPM ---
 volatile unsigned long lastRiseTime = 0;
-volatile unsigned long period = 0;
+volatile unsigned long period = 0; 
 volatile bool newData = false;
 
 const int pwmInputPin = 2; // Chân nhận tín hiệu RPM từ cảm biến
